@@ -6,7 +6,6 @@ import Profile from "./pages/Profile";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import PrivateRoute from "./components/PrivateRoute";
 import CreateListing from "./pages/CreateListing";
 import UpdateListing from "./pages/UpdateListing";
@@ -30,7 +29,6 @@ export default function App() {
           <Route path="/update-listing/:listingId" element={<UpdateListing />} />
         </Route>
       </Routes>
-      {/* <Footer/> */}
     </BrowserRouter>
   );
 }
